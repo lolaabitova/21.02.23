@@ -29,3 +29,6 @@ let example8 = document.createElement("p");
 example8.textContent = "How are you?";
 document.body.append(example8);
 // "prepend" vstavlayet v nachalo
+
+
+let example9 = document.createElement("ul");
