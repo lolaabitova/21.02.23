@@ -1,7 +1,7 @@
 
-let example2 = document.querySelector("p");
-console.log(example2);
-example2.textContent = "Hello world!";
+// let example2 = document.querySelector("p");
+// console.log(example2);
+// example2.textContent = "Hello world!";
 let example1 = document.querySelector("article");
 console.log(example1);
 
@@ -32,3 +32,10 @@ document.body.append(example8);
 
 
 let example9 = document.createElement("ul");
+document.body.append(example9);
+example9.className = "example-8";
+for( let i = 1; i <= 10; i++){
+  let listItem = document.createElement("li");
+  listItem.textContent = "Example" + i;
+  example9.append(listItem)
+}
