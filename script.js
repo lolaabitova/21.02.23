@@ -39,3 +39,14 @@ for( let i = 1; i <= 10; i++){
   listItem.textContent = "Example" + i;
   example9.append(listItem)
 }
+
+let example10 = document.createElement("ul");
+document.body.append(example10);
+let fruits = ["Apple", "Pear","Orange", "Banana"];
+for(let i =0; i < fruits.length; i++){
+  let fruit = fruits[i];
+  let listItem = document.createElement("li");
+  listItem.textContent = fruit;
+  example10.append(listItem);
+  
+}
