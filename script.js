@@ -28,3 +28,4 @@ for(let i =0; i < example7.length; i++){
 let example8 = document.createElement("p");
 example8.textContent = "How are you?";
 document.body.append(example8);
+// "prepend" vstavlayet v nachalo
